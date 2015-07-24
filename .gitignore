@@ -21,11 +21,16 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+# build/Release
 
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
-node_modules
 
-bower_components
-
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+app/jspm_packages
